@@ -3,17 +3,17 @@
 #Function Revistion exercises 2
 
 def input_number():
-    number1 = even
+    number1 = "even"
     while number1 == "even":
         number = int(input("please enter a odd number: "))
-        if not number/2:
-            number1 = "odd"
-        else:
+        if number%2 == 0:
             number1 = "even"
+        else:
+            number1 = "odd"
     return number
 
 def display_star_pyramid(number):
-    while number > 1:
+    while number > 0:
         print("*" * number)
         number = number - 2
 
