@@ -11,7 +11,7 @@ def calculate_celsius(fahrenheirt):
     return celsius
 
 def display_celsius(celsius,fahrenheirt):
-    print("{0:<2}fahrenheirt = {1:>2}celsius".format(fahrenheirt, celsius))
+    print("{0:.2f}fahrenheirt = {1:.2f}celsius".format(fahrenheirt, celsius))
 
 def convert_temps():
     fahrenheirt = input_fahrenheirt()
